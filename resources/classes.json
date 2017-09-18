@@ -1,0 +1,224 @@
+{
+	"classes": [{
+			"name": "BattleWizard",
+			"characterSheet": {
+				"image": "BattleWizard.PNG"
+			},
+			"skills": {
+				"1": [{
+						"Sword and Spell": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"Life Siphone": 5
+					}, {
+						"Freeze": 5
+					}, {
+						"Fireball": 5
+					}
+				],
+				"2": [{
+						"Max Health": 5
+					}, {
+						"Shadow Mode Attack": 5
+					}
+				],
+				"3": [{
+						"Sword and Spell": 10
+					}, {
+						"Life Siphon": 10
+					}, {
+						"Fireball": 10
+					}
+				],
+				"4": [{
+						"Max Health": 10
+					}, {
+						"Shadow Mode Attack": 10
+					}, {
+						"Freeze": 15
+					}
+				],
+				"5": [{
+						"Life Siphon": 10
+					}, {
+						"Fireball": 10
+					}
+
+				]
+			}
+		}, {
+			"name": "Bloodmoon Assassin",
+			"characterSheet": {
+				"image": "BloodmoonAssassin.PNG"
+			},
+			"skills": {
+				"1": [{
+						"Charge": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"Attack": 5
+					}, {
+						"Slippery": 5
+					}
+				],
+				"2": [{
+						"Max Health": 5
+					}, {
+						"Shadow Mode Attack": 10
+					}, {
+						"Attack": 5
+					}, {
+						"Killer Instinct": 10
+					}
+				],
+				"3": [{
+						"Charge": 10
+					}, {
+						"Slippery": 10
+					}
+				],
+				"4": [{
+						"Max Health": 10
+					}, {
+						"Shadow Mode Attack": 10
+					}, {
+						"Attack": 10
+					}, {
+						"Killer Instanct": 15
+					}
+				],
+				"5": [{
+						"Attack": 10
+					}
+				]
+			}
+		}, {
+			"name": "Bloodmoon Nightrunner",
+			"characterSheet": {
+				"image": "BloodmoonNightrunner.PNG"
+			},
+			"skills": {
+				"1": [{
+						"Attack": 5
+					}, {
+						"Slippery": 5
+					}, {
+						"Dual Wield": 5
+					}, {
+						"Safe Shot": 5
+					}
+				],
+				"2": [{
+						"Max Health": 5
+					}, {
+						"Attack": 5
+					}
+				],
+				"3": [{
+						"Attack": 10
+					}, {
+						"Slippery": 10
+					}, {
+						"Dual Wield": 10
+					}, {
+						"Safe Shot": 10
+					}
+				],
+				"4": [{
+						"Max Health": 10
+					}, {
+						"Attack": 10
+					}
+				],
+				"5": [{
+						"Attack": 10
+					}
+				]
+			}
+		}, {
+			"name": "Bonecrusher",
+			"characterSheet": {
+				"image": "Bonecrusher.PNG"
+			},
+			"skills": {
+				"1": [{
+						"Max Health": 5
+					}, {
+						"Charge": 5
+					}, {
+						"Taunt": 5
+					}, {
+						"Mace or Hammer": 5
+					}
+				],
+				"2": [{
+						"Max Health": 10
+					}, {
+						"Shadow Melee": 10
+					}, {
+						"Taunt": 10
+					}, {
+						"Concussion": 5
+					}
+				],
+				"3": [{
+						"Charge": 10
+					}, {
+						"Mace or Hammer": 10
+					}
+				],
+				"4": [{
+						"Max Health": 10
+					}, {
+						"Shadow Melee": 10
+					}, {
+						"Taunt": 15
+					}, {
+						"Concussion": 10
+					}
+				],
+				"5": [{
+						"Charge Attack": 10
+					}
+				]
+			}
+		}, {
+			"name": "Fury Paladin",
+			"characterSheet": {
+				"image": "FuryPaladin.PNG"
+			}
+		}, {
+			"name": "Nightshade Ranger",
+			"characterSheet": {
+				"image": "NightshadeRanger.PNG"
+			}
+		}, {
+			"name": "Noble Warrior",
+			"characterSheet": {
+				"image": "NobleWarrior.PNG"
+			}
+		}, {
+			"name": "Pitfighter Berserker",
+			"characterSheet": {
+				"image": "PitfighterBerserker.PNG"
+			}
+		}, {
+			"name": "Shadow Barbarian",
+			"characterSheet": {
+				"image": "ShadowBarbarian.PNG"
+			}
+		}, {
+			"name": "Sorcerer",
+			"characterSheet": {
+				"image": "Sorcerer.PNG"
+			}
+		}, {
+			"name": "Warrior Preist",
+			"characterSheet": {
+				"image": "WarriorPreist.PNG"
+			}
+		}
+	]
+}
