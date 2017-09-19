@@ -1,6 +1,6 @@
 {
 	"classes": [{
-			"name": "Battle Wizard",
+			"className": "Battle Wizard",
 			"characterSheet": {
 				"image": "BattleWizard.PNG"
 			},
@@ -48,7 +48,7 @@
 				]
 			}
 		}, {
-			"name": "Bloodmoon Assassin",
+			"className": "Bloodmoon Assassin",
 			"characterSheet": {
 				"image": "BloodmoonAssassin.PNG"
 			},
@@ -95,7 +95,7 @@
 				]
 			}
 		}, {
-			"name": "Bloodmoon Nightrunner",
+			"className": "Bloodmoon Nightrunner",
 			"characterSheet": {
 				"image": "BloodmoonNightrunner.PNG"
 			},
@@ -138,7 +138,7 @@
 				]
 			}
 		}, {
-			"name": "Bonecrusher",
+			"className": "Bonecrusher",
 			"characterSheet": {
 				"image": "Bonecrusher.PNG"
 			},
@@ -185,37 +185,37 @@
 				]
 			}
 		}, {
-			"name": "Fury Paladin",
+			"className": "Fury Paladin",
 			"characterSheet": {
 				"image": "FuryPaladin.PNG"
 			}
 		}, {
-			"name": "Nightshade Ranger",
+			"className": "Nightshade Ranger",
 			"characterSheet": {
 				"image": "NightshadeRanger.PNG"
 			}
 		}, {
-			"name": "Noble Warrior",
+			"className": "Noble Warrior",
 			"characterSheet": {
 				"image": "NobleWarrior.PNG"
 			}
 		}, {
-			"name": "Pitfighter Berserker",
+			"className": "Pitfighter Berserker",
 			"characterSheet": {
 				"image": "PitfighterBerserker.PNG"
 			}
 		}, {
-			"name": "Shadow Barbarian",
+			"className": "Shadow Barbarian",
 			"characterSheet": {
 				"image": "ShadowBarbarian.PNG"
 			}
 		}, {
-			"name": "Sorcerer",
+			"className": "Sorcerer",
 			"characterSheet": {
 				"image": "Sorcerer.PNG"
 			}
 		}, {
-			"name": "Warrior Preist",
+			"className": "Warrior Preist",
 			"characterSheet": {
 				"image": "WarriorPreist.PNG"
 			}

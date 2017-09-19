@@ -9,7 +9,7 @@ $(function () {
 		classes = data.classes;
 
 		$.each(classes, function (key, val) {
-			$('.dropdown-menu').append('<li id="'+filterClassName(val.name)+'"><a href="#">' + val.name + '</a></li>')
+			$('.dropdown-menu').append('<li id="'+filterClassName(val.className)+'"><a href="#">' + val.className + '</a></li>')
 		});
 	}).fail(function () {
 		alert("failed to load classes");
@@ -17,14 +17,14 @@ $(function () {
 
 	$('#saveCharacter').on('click', function () {
 		var savedCharacter = {};
-		savedCharacter.name = $('#characterName').val();
+		savedCharacter.characterName = $('#characterName').val();
 		savedCharacter.chosenClass = $("#chosenClass:first-child").text();
 		savedCharacter.hp = $('#hp').val();
 		savedCharacter.microXp = $('#microXp').val();
 		savedCharacter.fullXp = $('#fullXp').val();
 		savedCharacter.skills = {};
 
-		download(JSON.stringify(savedCharacter), savedCharacter.name + ".json", "text/json; charset=utf-8");
+		download(JSON.stringify(savedCharacter), savedCharacter.characterName + ".json", "text/json; charset=utf-8");
 	});
 
 	$('#loadCharacter').on('change', handleFileSelect);
@@ -35,7 +35,7 @@ $(function () {
 
 		var chosenClass = undefined;
 		for (var i = 0; i < classes.length; ++i) {
-			if (classes[i].name === $(this).text()) {
+			if (classes[i].className === $(this).text()) {
 				chosenClass = classes[i];
 				break;
 			}
@@ -49,7 +49,10 @@ $(function () {
 
 // replace spaces in the given string
 function filterClassName(className){
-	return className.replace(/\s+/g, '-');
+	if(className != undefined){
+		return className.replace(/\s+/g, '-');
+	}
+	return '';
 }
 
 // user is attempting to load a character
@@ -68,7 +71,7 @@ function handleFileSelect(evt) {
 		$('#microXp').val(loadingCharacter.microXp);
 		$('#fullXp').val(loadingCharacter.fullXp);
 		$('#hp').val(loadingCharacter.hp);
-		$('#characterName').val(loadingCharacter.name);
+		$('#characterName').val(loadingCharacter.characterName);
 	};
 
 	// Loop through the FileList and render image files as thumbnails.
