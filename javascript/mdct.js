@@ -9,7 +9,7 @@ $(function () {
 		classes = data.classes;
 
 		$.each(classes, function (key, val) {
-			$('.dropdown-menu').append('<li><a href="#">' + val.name + '</a></li>')
+			$('.dropdown-menu').append('<li id="'+val.name.replace(/\s+/g, '-')+'"><a href="#">' + val.name + '</a></li>')
 		});
 	}).fail(function () {
 		alert("get failed");
@@ -29,7 +29,7 @@ $(function () {
 
 	$('#loadCharacter').on('change', handleFileSelect);
 
-	$(".dropdown-menu").on('click', 'li a', function () {
+	$(".dropdown-menu").on('click', 'li', function () {
 		$("#chosenClass:first-child").text($(this).text());
 		$("#chosenClass:first-child").val($(this).text());
 
@@ -56,15 +56,19 @@ function handleFileSelect(evt) {
 
 	reader.onload = function (e) {
 		var loadText = e.target.result;
-		console.log("loading " + loadText);
 		loadingCharacter = JSON.parse(loadText);
+
+		$('.dropdown-menu #'+loadingCharacter.chosenClass.replace(/\s+/g, '-')).trigger('click', loadingCharacter.chosenClass);
+		
+		$('#microXp').val(loadingCharacter.microXp);
+		$('#fullXp').val(loadingCharacter.fullXp);
+		$('#hp').val(loadingCharacter.hp);
+		$('#characterName').val(loadingCharacter.name);
 	};
 
 	// Loop through the FileList and render image files as thumbnails.
 	for (var i = 0, f; f = files[i]; i++) {
 		var loadText = reader.readAsText(f);
-
-		console.log("loaded " + loadingCharacter);
 	}
 }
 
