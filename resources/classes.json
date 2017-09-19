@@ -5,46 +5,165 @@
 				"image": "BattleWizard.PNG"
 			},
 			"skills": {
-				"1": [{
-						"Sword and Spell": 5,
+				"A": [{
+						"row": 1,
+						"cost": 0,
 						"xCoord": 10,
 						"yCoord": 10
 					}, {
-						"Life Siphone": 5
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Freeze": 5
+						"row": 3,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Fireball": 5
+						"row": 4,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}
 				],
-				"2": [{
-						"Max Health": 5
+				"B": [{
+						"row": 1,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Shadow Mode Attack": 5
+						"row": 2,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}
 				],
-				"3": [{
-						"Sword and Spell": 10
+				"C": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Life Siphon": 10
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Fireball": 10
+						"row": 3,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
 					}
 				],
-				"4": [{
-						"Max Health": 10
+				"D": [{
+						"row": 1,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Shadow Mode Attack": 10
+						"row": 2,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Freeze": 15
+						"row": 3,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 15,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}
 				],
-				"5": [{
-						"Life Siphon": 10
+				"E": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Fireball": 10
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
 					}
-
 				]
 			}
 		}, {
@@ -53,44 +172,164 @@
 				"image": "BloodmoonAssassin.PNG"
 			},
 			"skills": {
-				"1": [{
-						"Charge": 5,
+				"A": [{
+						"row": 1,
+						"cost": 0,
 						"xCoord": 10,
 						"yCoord": 10
 					}, {
-						"Attack": 5
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Slippery": 5
+						"row": 3,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
 					}
 				],
-				"2": [{
-						"Max Health": 5
+				"B": [{
+						"row": 1,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Shadow Mode Attack": 10
+						"row": 2,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Attack": 5
+						"row": 3,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Killer Instinct": 10
+						"row": 4,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}
 				],
-				"3": [{
-						"Charge": 10
+				"C": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Slippery": 10
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
 					}
 				],
-				"4": [{
-						"Max Health": 10
+				"D": [{
+						"row": 1,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Shadow Mode Attack": 10
+						"row": 2,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Attack": 10
+						"row": 3,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Killer Instanct": 15
+						"row": 4,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 15,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}
 				],
-				"5": [{
-						"Attack": 10
+				"E": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}
 				]
 			}
@@ -100,40 +339,164 @@
 				"image": "BloodmoonNightrunner.PNG"
 			},
 			"skills": {
-				"1": [{
-						"Attack": 5
+				"A": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Slippery": 5
+						"row": 2,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Dual Wield": 5
+						"row": 3,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Safe Shot": 5
+						"row": 4,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
 					}
 				],
-				"2": [{
-						"Max Health": 5
+				"B": [{
+						"row": 1,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Attack": 5
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}
 				],
-				"3": [{
-						"Attack": 10
+				"C": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Slippery": 10
+						"row": 2,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Dual Wield": 10
+						"row": 3,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Safe Shot": 10
+						"row": 4,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
 					}
 				],
-				"4": [{
-						"Max Health": 10
+				"D": [{
+						"row": 1,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Attack": 10
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}
 				],
-				"5": [{
-						"Attack": 10
+				"E": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}
 				]
 			}
@@ -143,44 +506,164 @@
 				"image": "Bonecrusher.PNG"
 			},
 			"skills": {
-				"1": [{
-						"Max Health": 5
+				"A": [{
+						"row": 1,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Charge": 5
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Taunt": 5
+						"row": 3,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Mace or Hammer": 5
+						"row": 4,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
 					}
 				],
-				"2": [{
-						"Max Health": 10
+				"B": [{
+						"row": 1,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Shadow Melee": 10
+						"row": 2,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Taunt": 10
+						"row": 3,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Concussion": 5
+						"row": 4,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}
 				],
-				"3": [{
-						"Charge": 10
+				"C": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Mace or Hammer": 10
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
 					}
 				],
-				"4": [{
-						"Max Health": 10
+				"D": [{
+						"row": 1,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Shadow Melee": 10
+						"row": 2,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Taunt": 15
+						"row": 3,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}, {
-						"Concussion": 10
+						"row": 4,
+						"cost": 15,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}
 				],
-				"5": [{
-						"Charge Attack": 10
+				"E": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
 					}
 				]
 			}
@@ -188,36 +671,1170 @@
 			"className": "Fury Paladin",
 			"characterSheet": {
 				"image": "FuryPaladin.PNG"
+			},
+			"skills": {
+				"A": [{
+						"row": 1,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"B": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"C": [{
+						"row": 1,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"D": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"E": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				]
 			}
 		}, {
 			"className": "Nightshade Ranger",
 			"characterSheet": {
 				"image": "NightshadeRanger.PNG"
+			},
+			"skills": {
+				"A": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"B": [{
+						"row": 1,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"C": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"D": [{
+						"row": 1,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"E": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				]
 			}
 		}, {
 			"className": "Noble Warrior",
 			"characterSheet": {
 				"image": "NobleWarrior.PNG"
+			},
+			"skills": {
+				"A": [{
+						"row": 1,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"B": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"C": [{
+						"row": 1,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"D": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"E": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				]
 			}
 		}, {
 			"className": "Pitfighter Berserker",
 			"characterSheet": {
 				"image": "PitfighterBerserker.PNG"
+			},
+			"skills": {
+				"A": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"B": [{
+						"row": 1,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"C": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"D": [{
+						"row": 1,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 15,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 15,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"E": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				]
 			}
 		}, {
 			"className": "Shadow Barbarian",
 			"characterSheet": {
 				"image": "ShadowBarbarian.PNG"
+			},
+			"skills": {
+				"A": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"B": [{
+						"row": 1,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"C": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"D": [{
+						"row": 1,
+						"cost": 15,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 15,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 15,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"E": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				]
 			}
 		}, {
 			"className": "Sorcerer",
 			"characterSheet": {
 				"image": "Sorcerer.PNG"
+			},
+			"skills": {
+				"A": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"B": [{
+						"row": 1,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"C": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"D": [{
+						"row": 1,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"E": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 15,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				]
 			}
 		}, {
 			"className": "Warrior Preist",
 			"characterSheet": {
 				"image": "WarriorPreist.PNG"
+			},
+			"skills": {
+				"A": [{
+						"row": 1,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"B": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 5,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"C": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"D": [{
+						"row": 1,
+						"cost": 15,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				],
+				"E": [{
+						"row": 1,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 2,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 3,
+						"cost": 10,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 4,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 5,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}, {
+						"row": 6,
+						"cost": 0,
+						"xCoord": 10,
+						"yCoord": 10
+					}
+				]
 			}
 		}
 	]
