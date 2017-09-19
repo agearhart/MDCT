@@ -66,7 +66,7 @@ function handleFileSelect(evt) {
 		var loadText = e.target.result;
 		loadingCharacter = JSON.parse(loadText);
 
-		$('.dropdown-menu #'+filterClassName(loadingCharacter.chosenClass)).trigger('click', loadingCharacter.chosenClass);
+		$('.dropdown-menu #'+filterClassName(loadingCharacter.className)).trigger('click');
 		
 		$('#microXp').val(loadingCharacter.microXp);
 		$('#fullXp').val(loadingCharacter.fullXp);
