@@ -18,7 +18,7 @@ $(function () {
 	$('#saveCharacter').on('click', function () {
 		var savedCharacter = {};
 		savedCharacter.characterName = $('#characterName').val();
-		savedCharacter.chosenClass = $("#chosenClass:first-child").text();
+		savedCharacter.className = $("#chosenClass:first-child").text();
 		savedCharacter.hp = $('#hp').val();
 		savedCharacter.microXp = $('#microXp').val();
 		savedCharacter.fullXp = $('#fullXp').val();
