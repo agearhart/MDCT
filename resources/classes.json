@@ -1,6 +1,6 @@
 {
 	"classes": [{
-			"name": "BattleWizard",
+			"name": "Battle Wizard",
 			"characterSheet": {
 				"image": "BattleWizard.PNG"
 			},
