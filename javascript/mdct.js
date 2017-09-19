@@ -9,10 +9,10 @@ $(function () {
 		classes = data.classes;
 
 		$.each(classes, function (key, val) {
-			$('.dropdown-menu').append('<li id="'+val.name.replace(/\s+/g, '-')+'"><a href="#">' + val.name + '</a></li>')
+			$('.dropdown-menu').append('<li id="'+filterClassName(val.name)+'"><a href="#">' + val.name + '</a></li>')
 		});
 	}).fail(function () {
-		alert("get failed");
+		alert("failed to load classes");
 	});
 
 	$('#saveCharacter').on('click', function () {
@@ -47,6 +47,11 @@ $(function () {
 	});
 });
 
+// replace spaces in the given string
+function filterClassName(className){
+	return className.replace(/\s+/g, '-');
+}
+
 // user is attempting to load a character
 function handleFileSelect(evt) {
 	var files = evt.target.files; // FileList object
@@ -58,7 +63,7 @@ function handleFileSelect(evt) {
 		var loadText = e.target.result;
 		loadingCharacter = JSON.parse(loadText);
 
-		$('.dropdown-menu #'+loadingCharacter.chosenClass.replace(/\s+/g, '-')).trigger('click', loadingCharacter.chosenClass);
+		$('.dropdown-menu #'+filterClassName(loadingCharacter.chosenClass)).trigger('click', loadingCharacter.chosenClass);
 		
 		$('#microXp').val(loadingCharacter.microXp);
 		$('#fullXp').val(loadingCharacter.fullXp);
