@@ -6,7 +6,7 @@ var maxHealth = 9;
 //jQuery init
 $(function () {
 	$.get('/resources/classes.json', function (data, status, jqXHR) {
-		classes = data.classes;
+		classes = JSON.parse(data).classes;
 
 		$.each(classes, function (key, val) {
 			$('.dropdown-menu').append('<li id="'+filterClassName(val.className)+'"><a href="#">' + val.className + '</a></li>')
